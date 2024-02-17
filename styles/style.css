@@ -148,6 +148,24 @@ ol {
   border: none;
 }
 
-.search-form__label{
-  overflow: hidden
+.search-form__label {
+  border: none;
+} 
+
+.search-form__textfield {
+  border: none;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  background-color: #1B1919;
+  padding-top: 2.5px;
+  padding-bottom: 2.5px;
+  width: 225px;
+}
+
+.search-form__textfield::placeholder{
+  font-family: 'Fira Sans Condensed';
+  font-size: 18px;
+  line-height: 22px;
+  color: white;
+  opacity: 0.7;
 }
