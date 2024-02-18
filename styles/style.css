@@ -164,6 +164,9 @@ ol {
 .search-form__label {
   border: none;
   white-space: nowrap;
+  display: flex;
+  align-items: center;
+  gap: 5px;
 }
 
 .search-form__label:hover {
@@ -206,7 +209,7 @@ ol {
 
 .search-form__pseudo-checkbox {
   position: relative;
-  display: inline-block;
+  display: flex;
   width: 19px;
   height: 19px;
   border: 1px solid #fff;
@@ -214,10 +217,9 @@ ol {
 
 .search-form__checkbox:checked + .search-form__pseudo-checkbox::after {
   content: "";
-  position: absolute;
-  inset: 1px;
   width: 15px;
   height: 15px;
+  margin: auto;
   background-color: #fff;
 }
 
