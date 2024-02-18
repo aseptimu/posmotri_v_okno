@@ -112,6 +112,7 @@ ol {
   font-size: 75px;
   text-transform: uppercase;
   line-height: 94%;
+  padding-bottom: 26px;
 }
 
 .content__accent {
@@ -121,7 +122,6 @@ ol {
 .content__card-link {
   text-decoration: none;
   color: #ffffff;
-  margin: 1px;
 }
 
 .content__card-link:hover {
